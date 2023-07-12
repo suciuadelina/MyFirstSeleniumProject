@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AllTests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login and Logout(failed)">
+    <classes>
+      <class name="com.herokuapp.Logout">
+        <methods>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.herokuapp.Logout -->
+      <class name="com.herokuapp.Login">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.herokuapp.Login -->
+    </classes>
+  </test> <!-- Login and Logout(failed) -->
+  <test thread-count="5" name="Dropdown(failed)">
+    <classes>
+      <class name="com.herokuapp.Dropdown">
+        <methods>
+          <include name="dropdow"/>
+        </methods>
+      </class> <!-- com.herokuapp.Dropdown -->
+    </classes>
+  </test> <!-- Dropdown(failed) -->
+  <test thread-count="5" name="Download(failed)">
+    <classes>
+      <class name="com.herokuapp.Download">
+        <methods>
+          <include name="download"/>
+        </methods>
+      </class> <!-- com.herokuapp.Download -->
+    </classes>
+  </test> <!-- Download(failed) -->
+</suite> <!-- Failed suite [AllTests] -->
